@@ -1,0 +1,27 @@
+body {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+    size: 32px;
+}
+
+h1, h2 {
+    font-family: Arial;
+    margin-bottom: 1em;
+    margin-top: 1.5em;
+}
+
+table, th, td {
+    border: 1px solid;
+}
+
+figure {
+    float: right;
+}
+
+figcaption {
+    font-style: italic;
+}

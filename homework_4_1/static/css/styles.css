@@ -1,0 +1,283 @@
+* {
+  margin: 0;
+}
+
+h2,
+a,
+p {
+  margin: 0;
+  padding: 0;
+  font-family: Roboto, sans-serif;
+  text-decoration: none;
+}
+
+h2 {
+  font-weight: normal;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.header {
+  height: 4rem;
+  border-image: linear-gradient(#979797, #fff) 30;
+  border-width: 10px;
+  border-style: solid;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+
+.logo {
+  padding-top: 26px;
+  padding-left: 9px;
+}
+
+.break {
+  height: 0.25rem;
+  background-color: #e0e0e0;
+}
+
+.sign-in {
+  padding-top: 12px;
+  padding-right: 22px;
+}
+
+.sign-in > button {
+  font-size: 12px;
+  background-color: transparent;
+  box-sizing: border-box;
+  padding: 12px 20px;
+  border-radius: 2px;
+  border: 1px solid #e0e0e0;
+}
+
+.basket {
+  padding: 20px 0;
+  padding-right: 20px;
+  padding-left: 5px;
+}
+
+.search-bar {
+  padding: 3rem 0;
+}
+
+.search-bar > input {
+  font-size: 17px;
+  width: 100%;
+  border: none;
+  border-bottom: 0.1rem solid #e0e0e0;
+}
+
+.list {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1000px;
+}
+
+.card-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding-top: 0.8rem;
+  padding-bottom: 7rem;
+}
+
+.card {
+  padding-left: 2.5px;
+  padding-top: 0.7rem;
+  padding-bottom: 1.3rem;
+}
+
+.card-text {
+  text-align: left;
+  padding-top: 13px;
+  line-height: 28px;
+}
+
+.restaurant {
+  color: #1d1d1d;
+  font-size: 17px;
+}
+
+.cuisine {
+  color: #626262;
+  font-weight: lighter;
+  font-size: 16px;
+}
+
+.time {
+  color: #1d1d1d;
+  font-size: 15px;
+}
+
+.footer {
+  background-color: #262626;
+  height: 675px;
+}
+
+.footer-part1 {
+  text-align: left;
+  padding-top: 3.5rem;
+  padding-bottom: 2.7rem;
+  padding-left: 8px;
+  border-bottom: 1px solid #979797;
+}
+
+.footer-part2 {
+  padding-top: 2.3rem;
+  padding-bottom: 3.5rem;
+  border-bottom: 1px solid #979797;
+}
+
+.lang-dropdown-btn {
+  position: relative;
+  width: 14rem;
+  height: 2.5rem;
+  font-size: 14px;
+  color: #fff;
+  background-color: #3b3b3b;
+  box-sizing: border-box;
+  margin-bottom: 25px;
+  border-radius: 2px;
+  border: 1px solid #3b3b3b;
+}
+
+.lang-world-icon {
+  position: absolute;
+  top: 12px;
+  left: 10px;
+}
+
+.lang-name {
+  position: absolute;
+  top: 11px;
+  left: 50px;
+}
+
+.lang-arrow {
+  position: absolute;
+  top: 17px;
+  left: 200px;
+}
+
+.hashtag {
+  color: #fff;
+  font-size: 18px;
+}
+
+.footer-text-box {
+  padding-top: 0.7rem;
+  padding-bottom: 0.7rem;
+}
+
+.footer-medium-text {
+  font-size: 14px;
+  font-weight: lighter;
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-part3 {
+  padding-top: 2.7rem;
+  padding-bottom: 2.7rem;
+  border-bottom: 1px solid #979797;
+}
+
+.footer-part3 > div > div {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.footer-part4 {
+  padding-top: 2rem;
+  padding-bottom: 0.9rem;
+}
+
+.footer-small-text {
+  font-size: 12px;
+  font-weight: lighter;
+  color: #fff;
+  text-decoration: none;
+}
+
+@media only screen and (min-width: 360px) {
+  .footer {
+    height: 940px;
+  }
+
+  .footer-part3 {
+    padding-top: 1.8rem;
+    padding-bottom: 1.8rem;
+  }
+
+  .footer-part3 > div > div {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+
+@media only screen and (min-width: 576px) {
+  .footer {
+    height: 845px;
+  }
+
+  .footer-part3 {
+    padding-top: 1.8rem;
+    padding-bottom: 1.8rem;
+  }
+
+  .footer-part3 > div > div {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .footer {
+    height: 575px;
+  }
+
+  .footer-part3 {
+    padding-top: 1.8rem;
+    padding-bottom: 1.8rem;
+  }
+
+  .footer-part3 > div > div {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .footer {
+    height: 605px;
+  }
+
+  .footer-part3 {
+    padding-top: 2.7rem;
+    padding-bottom: 2.7rem;
+  }
+
+  .footer-part3 > div > div {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .footer {
+    height: 605px;
+  }
+
+  .footer-part3 {
+    padding-top: 2.7rem;
+    padding-bottom: 2.7rem;
+  }
+
+  .footer-part3 > div > div {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+}
